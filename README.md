@@ -1,18 +1,18 @@
-# Getting Started with Mathematica
+# Getting started with Mathematica
 
 An introduction to using Mathematica on Raspberry Pi
 
 ## About Mathematica
 
-Mathematica is a computational programming tool used in science, maths, computing and engineering first released in 1988. It is proprietary software that you can use for free on the Raspberry Pi and has been bundled with Raspbian and NOOBS since late 2013. Read the announcement on the Raspberry Pi blog: [The Wolfram Language and Mathematica on Raspberry Pi, for free](http://www.raspberrypi.org/the-wolfram-language-and-mathematica-on-raspberry-pi-for-free/).
+Mathematica is a computational programming tool used in science, maths, computing, and engineering; it was first released in 1988. It is proprietary software that you can use for free on the Raspberry Pi, and it has been bundled with Raspbian and NOOBS since late 2013. Read the announcement on the Raspberry Pi blog: [The Wolfram Language and Mathematica on Raspberry Pi, for free](http://www.raspberrypi.org/the-wolfram-language-and-mathematica-on-raspberry-pi-for-free/).
 
 ![](images/3d-plot.png)
 
-If your SD card was updated since late 2013 then you should have Mathematica and Wolfram pre-installed and should see their icons on the Raspbian desktop:
+If your SD card was updated since late 2013, then you should have Mathematica and Wolfram pre-installed and should see their icons on the Raspbian desktop:
 
 ![](images/icons.png)
 
-or find the programs in your applications menu under *Education*.
+You can also find the programs in your applications menu under *Education*.
 
 ## Installation
 
@@ -23,13 +23,13 @@ sudo apt-get update
 sudo apt-get install wolfram-engine
 ```
 
-Note this is a 200MB download so may take some time.
+Note this is a 200MB download, so it may take some time.
 
 ## Requirements
 
-With Mathematica installed you should be able to follow the exercises along.
+With Mathematica installed you should be able to follow along with the exercises.
 
-The advanced worksheet features the use of some advanced mathematics (matrices). There is also one example of using GPIO, so for that you'll need basic input and outputs such as a tactile button and an LED.
+The advanced worksheet features the use of some advanced mathematics (matrices). There is also one example of using GPIO, so for that you'll need basic input and outputs, such as a tactile button and an LED.
 
 ## Worksheets
 
