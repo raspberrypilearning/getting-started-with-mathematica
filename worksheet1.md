@@ -144,7 +144,7 @@ You can run a loop a number of times, or over the items in a list, with `Do`:
 Do[Print["Hello"], {10}] (*Print "Hello" 10 times*)
 Do[Print[i], {i, 5}] (*Print the numbers 1 to 5*)
 Do[Print[i], {i, 3, 5}] (*Print the numbers 3 to 5*)
-Do[Print[i], {i, 3, 5}] (*Print the numbers 1 to 5, in steps of 2*)
+Do[Print[i], {i, 1, 5, 2}] (*Print the numbers 1 to 5, in steps of 2*)
 Do[Print[i ^ 2], {i, nums}] (*Print the square of each item in the list nums*)
 ```
 
