@@ -33,7 +33,7 @@ The advanced worksheet features the use of some advanced mathematics (matrices).
 
 ## Worksheets
 
-- [Worksheet 1](worksheet1.md)
+- [Worksheet 1](worksheet.md)
 - [Worksheet 2](worksheet2.md) (advanced)
 
 ## Licence
