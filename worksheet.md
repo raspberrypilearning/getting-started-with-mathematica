@@ -201,3 +201,7 @@ wolfram -script test.m
 ```
 
 ![](images/script.png)
+
+## What next?
+
+- [Continue to worksheet 2](worksheet2.md)
