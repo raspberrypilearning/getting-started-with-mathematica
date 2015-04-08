@@ -2,7 +2,7 @@
  
 - How to launch the Mathematica notebook and run commands
 - How to use variables
-- How to use symbolic values for irrational numbers like `Pi`
+- How to use symbolic values for irrational numbers like Pi
 - How to use lists, ranges, tables and loops
 - How to use and and search for built-in functions
 - How to save a Wolfram script and run it from the command line
