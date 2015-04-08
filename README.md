@@ -2,6 +2,8 @@
 
 An introduction to using Mathematica on Raspberry Pi
 
+![](cover.png)
+
 ## About Mathematica
 
 Mathematica is a computational programming tool used in science, maths, computing, and engineering; it was first released in 1988. It is proprietary software that you can use for free on the Raspberry Pi, and it has been bundled with Raspbian and NOOBS since late 2013. Read the announcement on the Raspberry Pi blog: [The Wolfram Language and Mathematica on Raspberry Pi, for free](http://www.raspberrypi.org/the-wolfram-language-and-mathematica-on-raspberry-pi-for-free/).
