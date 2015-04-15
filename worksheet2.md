@@ -94,7 +94,7 @@ Read more about GPIO in general on the [GPIO usage page](https://www.raspberrypi
 
 ## Camera
 
-You can take pictures with the camera using the `DeviceRead` function. First, attach your camera as usual. Follow the [camera setup guide](http://www.raspberrypi.org/help/camera-module-setup/) if needed.
+You can take pictures with the camera using the `DeviceRead` function. First, attach your camera as directed in the [camera setup guide](http://www.raspberrypi.org/help/camera-module-setup/).
 
 To take a still picture with the camera, type the following command:
 
