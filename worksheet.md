@@ -8,7 +8,7 @@ Double-click the `Mathematica` icon on the Desktop or open it from the applicati
 
 ![](images/splash.png)
 
-Once loaded, you'll see two windows. The Wolfram information dialogue:
+Once loaded, you'll see two windows. These are the Wolfram information dialogue:
 
 ![](images/info.png)
 
