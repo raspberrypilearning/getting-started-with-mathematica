@@ -90,7 +90,7 @@ The variable `button` should now contain `0` for off or `1` for on.
 
 ![](images/gpio.png)
 
-Read more about GPIO in general on the [GPIO usage](../gpio/README.md) page.
+Read more about GPIO in general on the [GPIO usage page](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/README.md).
 
 ## Camera
 
