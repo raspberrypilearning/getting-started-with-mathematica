@@ -22,7 +22,7 @@ Note that in the last example the square roots of `1` and `4` were given exactly
 
 ## Matrices
 
-One of the most useful additional components of a mathematical programming language is the ability to do [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics)) operations. Of course, Mathematica has these available.
+One of the most useful additional components of a mathematical programming language is the ability to do [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics) ) operations. Of course, Mathematica has these available.
 
 To create a matrix first enter the values as a list of lists, making sure the dimensions are rectangular, i.e. `n x m` where `n` and `m` are integers:
 
