@@ -10,3 +10,7 @@
 - How to use Matrices
 - How to plot in 3D
 - How to access GPIO pins and the camera module
+
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+
+- [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator)
