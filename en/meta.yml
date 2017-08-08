@@ -20,8 +20,6 @@ steps:
 - title: Starting Mathematica
 - title: Programming in Mathematica
 - title: Wolfram command line access
-- title: What next?
-- title: Getting started with Mathematica - advanced worksheet
 - title: List operations
 - title: Matrices
 - title: Plotting
