@@ -1,14 +1,16 @@
-## Plotting
+## Camera
 
-You can plot interesting things using Mathematica:
+You can take pictures with the camera using the `DeviceRead` function. First, attach your camera as directed in the [camera setup guide](http://www.raspberrypi.org/help/camera-module-setup/).
 
-![](images/batman-plot.png)
-
-For example, plot an [echidnahedron](http://mathworld.wolfram.com/Echidnahedron.html) with the following command:
+To take a still picture with the camera, type the following command:
 
 ```
-Graphics3D[{Opacity[.8], Glow[RGBColor[1,0,0]], EdgeForm[White], Lighting -> None, PolyhedronData["Echidnahedron", "Faces"]}]
+img = DeviceRead["RaspiCam"]
 ```
 
-![](images/echidnahedron.png)
+Then to save the image as a file, use `Export` and supply the save path and the variable containing the image:
+
+```
+Export["/home/pi/img.jpg", img]
+```
 

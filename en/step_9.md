@@ -1,20 +1,14 @@
-## List operations
+## Plotting
 
-You can apply an operation or function to all items in a list:
+You can plot interesting things using Mathematica:
+
+![](images/batman-plot.png)
+
+For example, plot an [echidnahedron](http://mathworld.wolfram.com/Echidnahedron.html) with the following command:
 
 ```
-In[21]:= 2 * {1, 2, 3, 4, 5}
-
-Out[21]: {2, 4, 6, 8, 10}
-
-In[22]:= {1, 2, 3, 4, 5} ^ 2
-
-Out[22]: {1, 4, 9, 16, 25}
-
-In[23]:= Sqrt[{1, 2, 3, 4, 5}]
-
-Out[23]: {1, Sqrt[2], Sqrt[3], 2, Sqrt[5]}
+Graphics3D[{Opacity[.8], Glow[RGBColor[1,0,0]], EdgeForm[White], Lighting -> None, PolyhedronData["Echidnahedron", "Faces"]}]
 ```
 
-Note that in the last example the square roots of `1` and `4` were given exactly, as they yield integer value; however the square roots of `2`, `3` and `5`, which are irrational, are given symbolically.
+![](images/echidnahedron.png)
 

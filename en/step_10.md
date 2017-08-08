@@ -1,28 +1,30 @@
-## Matrices
+## GPIO
 
-One of the most useful additional components of a mathematical programming language is the ability to do [matrix](https://en.wikipedia.org/wiki/Matrix_(mathematics) ) operations. Of course, Mathematica has these available.
+You can access the GPIO pins from Mathematica using the `DeviceWrite` and `DeviceRead` functions.
 
-To create a matrix first enter the values as a list of lists, making sure the dimensions are rectangular, i.e. `n x m` where `n` and `m` are integers:
+To access the GPIO pins you'll need to be running as root. To do this, run `sudo wolfram` from the terminal (this will run the command line `wolfram` environment), or `sudo mathematica &` to run the Mathematica notebook as root.
 
-```
-m = {{1, 2}, {3, 4}, {5, 6}};
-```
-
-You can view this list as a matrix by typing:
+The following command turns on GPIO pin 14 (using BCM pin numbering):
 
 ```
-m // MatrixForm
+DeviceWrite["GPIO", 14 -> 1]
 ```
 
-![](images/matrix.png)
-
-You can perform matrix operations such as [dot product](https://en.wikipedia.org/wiki/Dot_product):
+The following command turns pin 14 off:
 
 ```
-m = {{1, 2}, {3, 4}, {5, 6}};
-m2 = {{10, 20, 30}, {40, 50, 60}};
-m . m2 // MatrixForm
+DeviceWrite["GPIO", 14 -> 0]
 ```
 
-![](images/dot-product.png)
+You can also read the status of a GPIO input device (to check if a button is pressed, for example) with `DeviceRead`, in a similar way:
+
+```
+button = DeviceRead["GPIO", 14]
+```
+
+The variable `button` should now contain `0` for off or `1` for on.
+
+![](images/gpio.png)
+
+Read more about GPIO in general on the [GPIO usage page](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/README.md).
 
