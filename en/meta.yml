@@ -1,6 +1,8 @@
+---
 title: Getting Started With Mathematica
 hero_image: images/banner.png
-description: Getting started with Mathematica and the Wolfram language on Raspberry Pi
+description: Getting started with Mathematica and the Wolfram language on Raspberry
+  Pi
 original_url: https://raspberrypi.org/learning/getting-started-with-mathematica
 theme: violet
 duration: 2
@@ -15,9 +17,10 @@ hardware: raspberry-pi
 software: ''
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
+  completion: engaged
 - title: Getting started with Mathematica
 - title: Starting Mathematica
 - title: Programming in Mathematica
@@ -26,4 +29,5 @@ steps:
 - title: Matrices
 - title: Plotting
 - title: GPIO
+  completion: internal
 - title: Camera
