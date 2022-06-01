@@ -20,7 +20,6 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Getting started with Mathematica
 - title: Starting Mathematica
 - title: Programming in Mathematica
@@ -29,5 +28,4 @@ steps:
 - title: Matrices
 - title: Plotting
 - title: GPIO
-  completion: internal
 - title: Camera
